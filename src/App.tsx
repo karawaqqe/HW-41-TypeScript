@@ -8,7 +8,6 @@ function App() {
   return (
     <main className="page">
       <h1>HW 41 TypeScript</h1>
-      <p>Прості приклади типів з домашнього завдання.</p>
 
       <section className="card">
         <h2>Tuple</h2>
