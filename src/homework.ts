@@ -1,4 +1,3 @@
-// Task 1.1
 export const age: number = 50;
 export const userName: string = 'Max';
 export const toggle: boolean = true;
@@ -8,13 +7,11 @@ export const callback = (a: number): number => {
   return 100 + a;
 };
 
-// Task 1.2
 let anything: any = -20;
 anything = 'Text';
 anything = {};
 export { anything };
 
-// Task 1.3
 let some: unknown;
 some = 'Text';
 
@@ -24,25 +21,20 @@ if (typeof some === 'string') {
   str = some;
 }
 
-// Task 1.5
 export const person: readonly [string, number] = ['Max', 21];
 
-// Task 1.6
 export enum LoadStatus {
   LOADING = 'loading',
   READY = 'ready',
 }
 
-// Task 1.7
 export let value: string | number;
 value = 'Hello';
 value = 100;
 
-// Task 1.8
 export let mode: 'enable' | 'disable';
 mode = 'enable';
 
-// Task 1.9
 export function showMessage(message: string): void {
   console.log(message);
 }
@@ -55,7 +47,6 @@ export function customError(): never {
   throw new Error('Error');
 }
 
-// Task 1.10
 type PageStatus = 'open' | 'close';
 
 export type Page = {
